@@ -59,9 +59,6 @@ class Board
 
 end 
 
-
-
-
 class Player 
   attr_reader :name, :symbol 
   
@@ -72,6 +69,8 @@ class Player
   
 end 
 
+
+=begin
 board = Board.new 
 board.welcome_msg 
 
@@ -111,3 +110,4 @@ board.display_board
 
 
 end 
+=end 
